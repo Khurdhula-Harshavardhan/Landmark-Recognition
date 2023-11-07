@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+#ignore the datasets/** as well we can download large files later.
+datasets/
+
+#we must also ignore trained models for now.
+models/
+
 # Distribution / packaging
 .Python
 build/
