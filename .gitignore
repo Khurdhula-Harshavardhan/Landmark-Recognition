@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#ignore the datasets/** as well we can download large files later.
+datasets/
+
 # Distribution / packaging
 .Python
 build/
